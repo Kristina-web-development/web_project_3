@@ -1,0 +1,11 @@
+.header {
+   width: 100%;
+}
+
+.header__logo {
+position: absolute;
+width: 270px;
+height: 70px;
+margin-left: 505px;
+margin-top: 34px;
+}

@@ -11,3 +11,16 @@ flex-direction: column;
 align-items: center;
 margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .page__container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page__container {
+        max-width: 320px;
+    }
+    
+}

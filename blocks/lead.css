@@ -1,8 +1,6 @@
-
 .lead {
     position: relative;
     max-width: 984px;
-
     padding: 91px 148px 92px 148px;
     display: flex;
     flex-direction: column;
@@ -10,14 +8,10 @@
     margin: 0;
 }
 
-    
- 
-    
-    .lead__title {
-    
+.lead__title {
     width: 793px;
     height: 200px;
-    padding: 91px 96px 32px 95px ;
+    padding: 91px 96px 32px 95px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -27,10 +21,9 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0;
-    }
-    
-    .lead__subtitle {
-    
+}
+
+.lead__subtitle {
     width: 720px;
     height: 72px;
     padding-left: 132px;
@@ -45,59 +38,51 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0;
-    }
-    
-    .lead__image {
-    
-        max-width: 984px;
-    }
+}
 
-    @media screen and (max-width: 768px) {
-         .lead {
-             padding: 194px 0 36px 0;
-             max-width: 720px;
-             margin: auto;
-         }
-        .lead__title {
+.lead__image {
+    max-width: 984px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        padding: 194px 0 88px 0;
+        max-width: 768px;
+        margin: auto;
+    }
+    .lead__title {
         width: 720px;
         height: 300px;
-        padding: 0 12px 32px;
-        
-        
-       }
-       .lead__subtitle {
-           padding: 0 12px 36px;
-           
-       }
-       .lead__image {
-           max-width: 768px;
-       }
+        padding: 0 24px 32px;
     }
+    .lead__subtitle {
+        padding: 0 24px 36px;
+    }
+    .lead__image {
+        max-width: 768px;
+    }
+}
 
-    @media  screen and (max-width: 320px) {
-        .lead {
-            max-width: 320px;
-            padding: 122px 0 40px 0;
-            
-        }
-        .lead__title {
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+        padding: 122px 0 64px 0;
+    }
+    .lead__title {
         width: 288px;
         height: 132px;
         padding: 0 16px 16px 16px;
-        
         font-size: 40px;
         line-height: 44px;
-
-        }
-        .lead__subtitle {
-            
-            font-size: 16px;
-            line-height: 20px;
-            width: 288px;
-            height: 40px;
-            padding: 0 16px 40px 16px;
-        }
-        .lead__image {
-            max-width: 320px;
-        }
     }
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        width: 288px;
+        height: 40px;
+        padding: 0 16px 40px 16px;
+    }
+    .lead__image {
+        max-width: 320px;
+    }
+}

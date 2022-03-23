@@ -70,6 +70,10 @@
     margin: 0;
 }
 
+.cover__span-linebreak {
+    display: block;
+}
+
 .cover__button {
     width: 137px;
     max-height: 24px;

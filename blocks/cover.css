@@ -12,6 +12,8 @@
     margin-bottom: 92px;
     position: relative;
     z-index: 1;
+    background-size: cover;
+    background-position: center;
 }
 
 .cover::before {

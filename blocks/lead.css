@@ -10,7 +10,6 @@
 
 .lead__title {
     width: 793px;
-    height: 200px;
     padding: 91px 96px 32px 95px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -25,7 +24,6 @@
 
 .lead__subtitle {
     width: 720px;
-    height: 72px;
     padding-left: 132px;
     padding-right: 132px;
     padding-bottom: 64px;
@@ -52,7 +50,6 @@
     }
     .lead__title {
         width: 720px;
-        height: 300px;
         padding: 0 24px 32px;
     }
     .lead__subtitle {
@@ -70,7 +67,6 @@
     }
     .lead__title {
         width: 288px;
-        height: 132px;
         padding: 0 16px 16px 16px;
         font-size: 40px;
         line-height: 44px;
@@ -79,7 +75,6 @@
         font-size: 16px;
         line-height: 20px;
         width: 288px;
-        height: 40px;
         padding: 0 16px 40px 16px;
     }
     .lead__image {

@@ -58,7 +58,7 @@
 .place__image {
     grid-area: image;
     margin: 0;
-    width: 460px;
+    width: 100%;
 }
 
 .place__text-container {
@@ -119,9 +119,6 @@
     .place__artist-name {
         max-width: 316px;
     }
-    .place__image {
-        max-width: 340px;
-    }
     .place__paragraph {
         max-width: 352px;
         font-size: 16px;
@@ -149,9 +146,6 @@
         max-width: 288px;
         padding-left: 16px;
         padding-bottom: 0;
-    }
-    .place__image {
-        max-width: 320px;
     }
     .place__paragraph {
         max-width: 288px;

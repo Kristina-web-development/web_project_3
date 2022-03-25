@@ -1,16 +1,14 @@
 .lead {
     position: relative;
     max-width: 984px;
-    padding: 91px 148px 92px 148px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .lead__title {
-    width: 793px;
-    padding: 91px 96px 32px 95px;
+    max-width: 793px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -19,14 +17,11 @@
     /* or 104% */
     text-align: center;
     color: #FFFFFF;
-    margin: 0;
+    margin: 90px auto 0;
 }
 
 .lead__subtitle {
-    width: 720px;
-    padding-left: 132px;
-    padding-right: 132px;
-    padding-bottom: 64px;
+    max-width: 720px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -35,25 +30,23 @@
     /* or 120% */
     text-align: center;
     color: #FFFFFF;
-    margin: 0;
+    margin: 32px auto 64px;
 }
 
 .lead__image {
     max-width: 984px;
+    width: 100%
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        padding: 194px 0 88px 0;
         max-width: 768px;
-        margin: auto;
     }
     .lead__title {
         width: 720px;
-        padding: 0 24px 32px;
     }
     .lead__subtitle {
-        padding: 0 24px 36px;
+        margin-bottom: 36px;
     }
     .lead__image {
         max-width: 768px;
@@ -63,19 +56,19 @@
 @media screen and (max-width: 320px) {
     .lead {
         max-width: 320px;
-        padding: 122px 0 64px 0;
     }
     .lead__title {
-        width: 288px;
-        padding: 0 16px 16px 16px;
+        max-width: 288px;
         font-size: 40px;
         line-height: 44px;
+        margin-top: 50px;
     }
     .lead__subtitle {
         font-size: 16px;
         line-height: 20px;
         width: 288px;
-        padding: 0 16px 40px 16px;
+        margin-top: 16px;
+        margin-bottom: 40px;
     }
     .lead__image {
         max-width: 320px;

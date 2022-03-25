@@ -1,17 +1,13 @@
 .intro {
-    width: 785px;
-    padding-right: 347px;
-    padding-left: 148px;
-    padding-bottom: 118px;
+    max-width: 785px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
+    margin: 92px auto 118px;
 }
 
 .intro__title {
-    width: 785px;
-    padding: 0;
+    max-width: 785px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -19,11 +15,11 @@
     line-height: 58px;
     /* or 107% */
     color: #FFFFFF;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .intro__quote {
-    width: 720px;
+    max-width: 720px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -31,8 +27,7 @@
     line-height: 34px;
     /* or 142% */
     color: #FFFFFF;
-    padding: 40px 65px 10px 0;
-    margin: 0;
+    margin: 40px 65px 10px 0;
 }
 
 .intro__author {
@@ -45,68 +40,68 @@
     /* identical to box height, or 142% */
     text-align: right;
     color: #FFFFFF;
-    padding-bottom: 32px;
-    padding-right: 65px;
-    margin: 0;
+    margin: 0 65px 32px 0;
 }
 
 .intro__text {
-    width: 720px;
+    max-width: 720px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    padding-right: 65px;
     margin: 0;
+    margin-right: 65px;
 }
 
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 720px;
-        padding: 0 24px 90px 24px;
+        margin-top: 88px;
+        margin-bottom: 90px;
         margin: auto;
     }
     .intro__title {
         width: 720px;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     .intro__quote {
-        padding: 0;
-        padding-bottom: 10px;
+        margin: 0;
+        margin-bottom: 10px;
     }
     .intro__author {
-        padding: 0;
-        padding-bottom: 32px;
+        margin: 0;
+        margin-bottom: 32px;
     }
     .intro__text {
-        padding: 0;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
         max-width: 288px;
-        padding: 0 16px 90px 16px;
+        margin-bottom: 90px;
+        margin-top: 64px;
     }
     .intro__title {
-        width: 288px;
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        padding-bottom: 40px;
+        margin-bottom: 40px;
     }
     .intro__quote {
-        width: 288px;
+        max-width: 288px;
         font-size: 24px;
         line-height: 30px;
-        padding-bottom: 10px;
+        margin: 0 auto;
     }
     .intro__author {
         width: 288px;
-        padding-bottom: 32px;
+        margin: 0 auto;
     }
     .intro__text {
-        width: 288px;
+        max-width: 288px;
     }
 }

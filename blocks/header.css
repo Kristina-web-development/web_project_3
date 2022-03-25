@@ -1,26 +1,23 @@
 .header {
     width: 100%;
-}
-
-.header__logo {
-    position: absolute;
-    width: 270px;
-    height: 70px;
-    margin-left: 505px;
+    display: flex;
+    justify-content: center;
     margin-top: 34px;
 }
 
-@media screen and (max-width: 768px) {
-    .header__logo {
-        margin-left: 249px;
-    }
+.header__logo {
+    position: relative;
+    width: 270px;
+    height: 70px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 320px) {
+    .header {
+        margin-top: 20px;
+    }
     .header__logo {
         width: 200px;
         height: 51.85px;
-        margin-left: 60px;
-        margin-top: 20px;
     }
 }

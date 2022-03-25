@@ -3,32 +3,24 @@
 }
 
 .places__container {
-    padding: 0 148px 92px 145px;
+    margin: 0 auto 92px;
     max-width: 987px;
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .places {
-        max-width: 768px;
-    }
     .places__container {
-        padding: 0 24px 92px 24px;
         max-width: 720px;
         gap: 72px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .places {
-        max-width: 320px;
-    }
     .places__container {
-        padding: 0;
-        padding-bottom: 64px;
+        margin-bottom: 64px;
         gap: 50px;
         max-width: 320px;
     }

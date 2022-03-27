@@ -3,7 +3,7 @@
     margin: 0 auto 92px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
+    gap: 16px;
 }
 
 .gallery__image {
@@ -14,7 +14,7 @@
 @media screen and (max-width: 768px) {
     .gallery {
         max-width: 720px;
-        margin: 0 auto 80px;
+        margin: 0 24px 88px;
         grid-template-columns: repeat(2, 1fr);
     }
     .gallery__image {
@@ -27,7 +27,7 @@
         max-width: 288px;
         margin: 0 auto 62px;
         grid-template-columns: 1fr;
-        grid-gap: 12px;
+        gap: 12px;
     }
     .gallery__image {
         max-width: 288px;

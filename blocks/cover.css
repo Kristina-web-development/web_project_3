@@ -63,7 +63,7 @@
     /* or 122% */
     text-align: center;
     color: #FFFFFF;
-    width: 280px;
+    max-width: 280px;
     margin: 0;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .cover__button {
-    width: 137px;
+    max-width: 137px;
     max-height: 24px;
     font-family: 'Inter', sans-serif;
     font-style: normal;

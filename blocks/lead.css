@@ -1,5 +1,4 @@
 .lead {
-    position: relative;
     max-width: 984px;
     display: flex;
     flex-direction: column;
@@ -43,7 +42,7 @@
         max-width: 768px;
     }
     .lead__title {
-        width: 720px;
+        max-width: 720px;
     }
     .lead__subtitle {
         margin-bottom: 36px;

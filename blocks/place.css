@@ -82,10 +82,13 @@
     padding-bottom: 25px;
 }
 
+.place__paragraph:last-child {
+    padding-bottom: 0;
+}
+
 .place__button {
     grid-area: button;
     max-width: 248px;
-    width: 100%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -99,7 +102,8 @@
     text-align: center;
     padding: 13px 20px;
     text-decoration: none;
-    max-height: 24px;
+    max-height: 48px;
+    box-sizing: border-box;
 }
 
 .place__button:hover {
@@ -156,5 +160,6 @@
         max-width: 208px;
         padding: 13px 40px;
         margin: auto;
+        box-sizing: content-box;
     }
 }

@@ -104,6 +104,7 @@
     text-decoration: none;
     max-height: 48px;
     box-sizing: border-box;
+    height: max-content;
 }
 
 .place__button:hover {
@@ -127,6 +128,9 @@
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
+    }
+    .place__button {
+        box-sizing: content-box;
     }
 }
 

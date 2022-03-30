@@ -1,19 +1,22 @@
-# Project 3: From Homeland to Homeland
-### Overview  
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**    
-  
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+ Project 3 name: From Homeland to Homeland.
+
+ Project discription:
+ 1) This project is about how to set screen size for :
+     - 1280px and higher (standard laptops and beyond).
+     - From 768px to 1280px (from a tablet in portrait to a standard laptop).
+     - From 320px to 768px (from a large smartphone to a tablet in portrait).
+     - Up to 320px (mobile devices).
+ 
+ I learned a lot of technology and more about html and CSS. This site was developed using the Figma application.
+ 
+ 2) technology that i used for CSS, HTML:
+    - grid and flex layouts
+    - Media query for breakpoints 
+    - BEM naming and file structure 
+    - max-width to make the elements more flexible
+    - didn't use height where possible 
+
+ 3) In the project I encountered the complexity of horizontal scrolling, I heeded to use the inter-interval screen width (for example: width: 540px, 480px). But i would like to learn how to do whithout additional width for the screen.    
+ 
+ It was a very helpful experience!
+ 

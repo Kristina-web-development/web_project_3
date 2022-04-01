@@ -129,17 +129,16 @@
         font-size: 16px;
         line-height: 26px;
     }
-    .place__button {
-        box-sizing: content-box;
-    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
     .place {
-        max-width: 400px;
         display: flex;
         flex-direction: column;
         gap: 40px 48px;
+    }
+    .place__button {
+        box-sizing: content-box;
     }
 }
 
